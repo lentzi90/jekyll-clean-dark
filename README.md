@@ -1,11 +1,11 @@
-Jekyll Clean Dark
+Jekyll Dark Orange
 ============
 
-This theme was created on top of Jekyll Clean theme by Scotte, you can view the original version in action [on his blog](https://scotte.github.io).
+This theme was created on top of Jekyll Clean Dark theme by [Pavel Makhov](https://github.com/streetturtle), you can find the original theme [here](https://github.com/streetturtle/jekyll-clean-dark).
 
-* Get it from [github](https://github.com/streetturtle/jekyll-clean-dark).
-* See the [live demo](http://pavelmakhov.com/jekyll-clean-dark).
-* See it [in action on my own blog](http://pavelmakhov.com).
+* Get it from [github](https://github.com/lentzi90/jekyll-clean-dark).
+* See the [live demo](https://lentzi90.github.io/jekyll-clean-dark/).
+* See it [in action on my own blog](https://jern.me) (in Swedish).
 
 This theme uses some parts of Twitter Bootstrap, which allows it to look nice on a mobile devices using a collapsable nav bar and hiding the
 sidebar.
