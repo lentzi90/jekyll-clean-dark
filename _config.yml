@@ -1,7 +1,7 @@
 # Jekyll configuration
 
 name: Blog Name
-description: Software Developer
+description: This is a description of this awsome webpage/blog. It is really just an example to show what this jekyll theme looks like.
 
 # Url is currently only used only for the RSS feed in feed.xml
 url: https://lentzi90.github.io
