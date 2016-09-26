@@ -3,8 +3,8 @@ Jekyll Dark Orange
 
 This theme was created on top of Jekyll Clean Dark theme by [Pavel Makhov](https://github.com/streetturtle), you can find the original theme [here](https://github.com/streetturtle/jekyll-clean-dark).
 
-* Get it from [github](https://github.com/lentzi90/jekyll-clean-dark).
-* See the [live demo](https://lentzi90.github.io/jekyll-clean-dark/).
+* Get it from [github](https://github.com/lentzi90/jekyll-dark-orange).
+* See the [live demo](https://lentzi90.github.io/jekyll-dark-orange/).
 * See it [in action on my own blog](https://jern.me) (in Swedish).
 
 This theme uses some parts of Twitter Bootstrap, which allows it to look nice on a mobile devices using a collapsable nav bar and hiding the
