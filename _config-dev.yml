@@ -1,0 +1,18 @@
+# Jekyll configuration for testing/development
+# Settings for deployment/production are in _config.yml.
+
+# Override the production url URL
+url: http://localhost:4000
+
+# Override project URL
+baseurl: ''
+
+show_drafts: true
+
+# No need for Google analytics or yandex when testing
+google_analytics_key:
+yandex_metrica:
+
+# Disable disqus
+disqus:
+comments: false
