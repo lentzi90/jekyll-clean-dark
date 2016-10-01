@@ -53,3 +53,11 @@ kramdown:
   hard_wrap: true
 
 exclude: ['README.md', 'LICENSE', 'TODO.md', 'serve.sh']
+
+defaults:
+  -
+    scope:
+      path: "" # all files
+      type: "posts"
+    values:
+      layout: "post"
