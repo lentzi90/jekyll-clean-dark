@@ -5,8 +5,10 @@ Documentation for Bootstrap: http://getbootstrap.com/javascript/#carousel
 Example: Add the following to the front matter.
 
 images:
-  - path_to_first_image
-  - path_to_second_image
+  - image_path: first_image_path
+    caption: Put caption here
+  - image_path: second_image_path
+    caption: Second caption
 
 Then just include this file where you want the carousel to appear.
  -->
@@ -14,7 +16,7 @@ Then just include this file where you want the carousel to appear.
 
   <ol class="carousel-indicators">
   {% for image in page.images %}
-    <li data-target="#picture-carousel" data-slide-to="{{forloop.index}}"
+    <li data-target="#picture-carousel" data-slide-to="{{forloop.index0}}"
       {% if forloop.first %}class="active"{% endif %}></li>
   {% endfor %}
   </ol>
@@ -22,7 +24,11 @@ Then just include this file where you want the carousel to appear.
   <div class="carousel-inner" role="listbox">
   {% for image in page.images %}
     <div class="item {% if forloop.first %}active{% endif %}">
-      <img alt="Carousel picture" src="{{ site.url }}/{{image}}">
+      <img alt="Carousel picture"
+        src="{{ site.baseurl | prepend:site.url}}/{{image.image_path}}">
+      {% if image.caption %}
+        <div class="carousel-caption">{{ image.caption }}</div>
+      {% endif %}
     </div>
   {% endfor %}
   </div>

@@ -1,5 +1,5 @@
-Bootstrap carousel and defaults
+Fixes and enhancments to carousels
 
-- Added bootstrap carousel functionality.
-- New post explaining how to use the carouse.
-- Added defaults to `_config.yml`
+- Added captions to photo carousels
+- Fixed image paths in carousels
+- Fixed indicators in carousels
