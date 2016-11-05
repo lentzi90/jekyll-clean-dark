@@ -1,3 +1,5 @@
-Added page title to site title
+Fixes and enhancments to carousels
 
-- Added _commit.md for commit messages
+- Added captions to photo carousels
+- Fixed image paths in carousels
+- Fixed indicators in carousels
